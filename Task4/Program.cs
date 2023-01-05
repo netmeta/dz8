@@ -9,7 +9,7 @@ Print2DArray(GenerateRandom2DArray());
 int[,] GenerateRandom2DArray()
 {
     Random random = new Random();
-    int[,] array = new int[random.Next(2, 4), random.Next(2, 4)];
+    int[,] array = new int[random.Next(2, 11), random.Next(2, 11)];
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
